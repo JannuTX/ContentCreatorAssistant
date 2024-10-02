@@ -4,6 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 class HuggingFaceIntegration:
     def __init__(self):
         self.api_token = os.getenv("HUGGINGFACE_API_TOKEN")

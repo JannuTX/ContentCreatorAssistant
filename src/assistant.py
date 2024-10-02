@@ -13,14 +13,14 @@ class ContentCreatorAssistant:
     def process_command(self, command):
         try:
             if "next video idea" in command.lower():
-                idea = self.zoho.get_next_video_idea()
+                idea = get_next_video_idea()
                 brief = self.huggingface.generate_content_brief(idea)
                 return f"Next video idea: {idea}\n\nBrief:\n{brief}"
             elif "update status" in command.lower():
                 parts = command.split()
                 video_id = parts[parts.index("video") + 1]
                 status = parts[parts.index("to") + 1]
-                return self.zoho.update_video_status(video_id, status)
+                return update_video_status(video_id, status)
             else:
                 return "I didn't understand that command. Try asking for the next video idea or updating a video status."
         except Exception as e:
