@@ -1,4 +1,7 @@
 Content Creator Assistant - Keeping this master until full implemetation
+
+
+
 Overview
 Content Creator Assistant is a Python-based application that integrates Zoho CRM and Hugging Face AI to streamline the content creation process. It provides a simple interface for content creators to fetch video ideas from their Zoho CRM, generate content briefs using AI, and update video statuses.
 Features
