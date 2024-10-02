@@ -39,6 +39,11 @@ HUGGINGFACE_API_TOKEN=your_huggingface_api_token
 
 
 Project Structure
+
+
+
+
+
 CopyContentCreatorAssistant/
 │
 ├── src/
@@ -50,6 +55,10 @@ CopyContentCreatorAssistant/
 ├── .env
 ├── main.py
 └── README.md
+
+
+
+
 Usage
 
 Run the application:
