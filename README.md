@@ -17,7 +17,7 @@ Hugging Face account with API access
 Installation
 
 Clone the repository:
-Copygit clone https://github.com/yourusername/content-creator-assistant.git
+Copygit clone https://github.com/JannuTX/ContentCreatorAssistant/edit/master
 cd content-creator-assistant
 
 Create a virtual environment (optional but recommended):
